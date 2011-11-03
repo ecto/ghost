@@ -2,11 +2,12 @@
   "author": "Cam Pedersen <diffference@gmail.com> (http://campedersen.com/)",
   "name": "ghost",
   "description": "decompose and recompose functions",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/ecto/ghost.git"
   },
+  "test": "node test.js"
   "main": "ghost.js",
   "engines": {
     "node": "*"

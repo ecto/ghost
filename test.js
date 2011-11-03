@@ -1,16 +1,3 @@
-# ghost
-
-decompose and recompose functions in a jiffy
-
-![ghost](http://i.imgur.com/3VS5W.png)
-
-# install
-
-    npm install ghost
-
-# usage
-
-````javascript
 var ghost = require('./');
 
 var add = function add (a, b){
@@ -24,4 +11,3 @@ console.log(raw);
 var add2 = ghost.compose(raw);
 
 add2(1, 2);
-````
