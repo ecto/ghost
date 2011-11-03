@@ -1,0 +1,28 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/Users/TRON/local/node/bin/npm', 'pub' ]
+info using npm@1.0.102
+info using node@v0.4.10
+verbose config file /Users/TRON/.npmrc
+verbose config file /Users/TRON/local/node/etc/npmrc
+verbose config file /Users/TRON/local/node/lib/node_modules/npm/npmrc
+verbose publish [ '.' ]
+verbose cache add [ '.', null ]
+silly cache add: name, spec, args [ undefined, '.', [ '.', null ] ]
+verbose parsed url { pathname: '.', href: '.' }
+ERR! Could not install: .
+ERR! Failed to parse json
+ERR! Unexpected string
+ERR! File: package.json
+ERR! JSON.parse Failed to parse package.json data.
+ERR! JSON.parse package.json must be actual JSON, not just JavaScript.
+ERR! JSON.parse This is not a bug in npm.
+ERR! JSON.parse Tell the package author to fix their package.json file.
+ERR! 
+ERR! System Darwin 11.2.0
+ERR! command "node" "/Users/TRON/local/node/bin/npm" "pub"
+ERR! cwd /Users/TRON/personal/ghost
+ERR! node -v v0.4.10
+ERR! npm -v 1.0.102
+ERR! file package.json
+ERR! code EJSONPARSE
+verbose exit [ 1, true ]

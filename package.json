@@ -7,7 +7,7 @@
     "type": "git",
     "url": "git://github.com/ecto/ghost.git"
   },
-  "test": "node test.js"
+  "test": "node test.js",
   "main": "ghost.js",
   "engines": {
     "node": "*"
