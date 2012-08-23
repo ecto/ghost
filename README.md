@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/ecto/ghost.png)](http://travis-ci.org/ecto/ghost)
 # ghost
 
 decompose and recompose functions in a jiffy
